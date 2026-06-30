@@ -1,0 +1,115 @@
+# Xcode
+## Build generated
+build/
+DerivedData/
+
+## User settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Swift Package Manager
+.swiftpm/
+.build/
+Packages/
+Package.resolved
+
+## CocoaPods
+Pods/
+# If you have public pods, consider keeping Podfile.lock
+# Podfile.lock
+
+## Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+## Accio dependency management
+Dependencies/
+.accio/
+
+## Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+## Code coverage
+*.xcresult
+*.xccovreport
+*.xccovarchive
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+## SwiftLint/Format caches
+.swiftlint.yml
+.swiftlint.cache
+.swiftformat
+.swiftformatignore
+
+## Archives
+*.xcarchive
+
+## iOS specific
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## macOS specific
+*.app
+
+## Simulator logs and device data
+*.log
+*.trace
+
+## General
+.DS_Store
+*.swp
+*.lock
+
+## SPM Artifacts
+Artifacts/
+
+## Xcode 13+ workspace settings
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+## Tuist
+Tuist/Dependencies/
+
+## SwiftData / Core Data generated files (if any caches)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+## Firebase / GoogleService (optional; comment out if needed)
+# GoogleService-Info.plist
+
+## Environment files
+.env
+.env.*
+
+## Secrets
+Secrets/
+.secrets/
+
+## Temporary files
+*.tmp
+*.temp
+
+## Logs
+*.log
+
+# End of .gitignore

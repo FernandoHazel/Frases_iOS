@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var networkClient: NetworkClient = NetworkClient()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+
+        List(networkClient.pokemons) { pokemon in
+            PokemonCard(name: pokemon.name)
         }
-        .padding()
+        .onAppear(){
+            networkClient.getPokemons()
+        }
     }
 }
 
