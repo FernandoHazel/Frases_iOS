@@ -57,7 +57,7 @@ El objetivo es desarrollar una app que contenga:
 Propuesta:
 App de pokemons que llame a una API, muestre la lista en la pantalla principal, permita la navegación cada que se selecciona uno y navegue a la pantalla con detalles, también que permita la creación, actualización y eliminación de elementos.
 
-1- Vista principal con elementos enlistados +++
+1- Vista principal con elementos enlistados (Api Call) +++
 2- Usar los estados de SwiftUI
 3- Navegación al detalle de cada uno
 4- Permite la edición, creación y eliminación de los elementos
