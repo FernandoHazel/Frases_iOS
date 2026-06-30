@@ -6,6 +6,11 @@
 	objectVersion = 100;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		05C9267D2FF45EB70015A500 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 05C926762FF45EB70015A500 /* README.md */; };
+		05C9267E2FF45EB70015A500 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 05C926782FF45EB70015A500 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		05F48EB02FE9C7AF000A1689 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05C926762FF45EB70015A500 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		05C926782FF45EB70015A500 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		05F48EA22FE9C7AC000A1689 /* Frases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F48EAF2FE9C7AF000A1689 /* FrasesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrasesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F48EB92FE9C7AF000A1689 /* FrasesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrasesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +80,8 @@
 				05F48EB22FE9C7AF000A1689 /* FrasesTests */,
 				05F48EBC2FE9C7AF000A1689 /* FrasesUITests */,
 				05F48EA32FE9C7AC000A1689 /* Products */,
+				05C926762FF45EB70015A500 /* README.md */,
+				05C926782FF45EB70015A500 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,6 +206,8 @@
 		05F48EA02FE9C7AC000A1689 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				05C9267D2FF45EB70015A500 /* README.md in Resources */,
+				05C9267E2FF45EB70015A500 /* .gitignore in Resources */,
 			);
 		};
 		05F48EAD2FE9C7AF000A1689 /* Resources */ = {
